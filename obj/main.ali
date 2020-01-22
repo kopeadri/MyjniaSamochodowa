@@ -1,0 +1,146 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U main%b		main.adb		d9c82e77 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cartask%s		cartask.adb		cartask.ali
+W carwashtasks%s	carwashtasks.adb	carwashtasks.ali
+Z system%s		system.ads		system.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-calend.ads		20190518041256 474d9720 ada.calendar%s
+D a-caldel.ads		20190518041256 9f20b83d ada.calendar.delays%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041256 bf4f806b ada.finalization%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20190518041258 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D cartask.ads		20200121173542 22f0bab2 cartask%s
+D carwashtasks.ads	20200121193256 c4934333 carwashtasks%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-c.ads		20190518041256 5421119b interfaces.c%s
+D i-cstrin.ads		20190518041256 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20200121213220 83b4945b main%b
+D system.ads		20190518041258 32a08138 system%s
+D s-atacco.ads		20190518041258 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-finroo.ads		20190518041258 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-multip.ads		20190518041256 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20190518041258 97504df8 system.os_interface%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041256 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20190518041258 601f6b72 system.task_info%s
+D s-taspri.ads		20190518041258 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20190518041258 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041258 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041258 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041258 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20190518041258 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20190518041258 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D s-win32.ads		20190518041256 90ecf4e6 system.win32%s
+G a e
+G c Z b b [main standard 5 11 none]
+G r s carwashtask [main standard 5 11 none] [carwashtaskVIP carwashtasks 17 4 none]
+G r s car [main standard 5 11 none] [carVIP cartask 6 3 none]
+G r q none [main standard 5 11 none] [carwashtask carwashtasks 17 14 none]
+G r q none [main standard 5 11 none] [car cartask 6 13 none]
+G r r none [main standard 5 11 none] [start cartask__car 7 11 none]
+G r r none [main standard 5 11 none] [stop cartask__car 8 11 none]
+G r r none [main standard 5 11 none] [stop carwashtasks__carwashtask 19 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|2r6 2r19 2r40 3r5 36r13 52r13
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 20|2w23 36r17 52r17
+X 7 a-ioexce.ads
+18K13*IO_Exceptions 30e22 20|2w44
+X 11 a-textio.ads
+57K13*Text_IO 727e16 20|2w10 3r9
+264U14*New_Line 20|19s7 24s7
+381U14*Get 20|96s7
+508U14*Put_Line 20|20s7 21s7 22s7 23s7 34s13 35s13 38s16 43s32 50s13 51s13
+. 54s16 59s32 69s7 70s7 109s25
+548X4*Data_Error 20|43r18 59r18
+X 12 a-tiinio.ads
+59U14*Get 20|36s33[6|18] 52s33[6|18]
+X 14 cartask.ads
+4K9*CarTask 11e12 20|2w59 3r18
+6T13*Car 9e6 20|12r44 67r39
+7Y11 Start 20|74s18
+8Y11 Stop 20|84s18
+X 15 carwashtasks.ads
+1K9*CarWashTasks 22e17 20|2w68 3r27
+17T14*CarWashTask 20e19 20|66r25
+19Y13 Stop 20|87s15
+X 20 main.adb
+5U11*Main 5b11 113l5 113t9
+7e4 Zn{character} 95m7 96m11 97r17 99r12
+9i4 StandsNumber{integer} 66r37 101m13 106m13
+10i4 CarsNumber{integer} 67r24 73r33 83r33 102m13 107m13
+12A9 Cars(14|6T13)<integer>
+13A9 Data(integer)<integer> 14r15 28r36 29r17
+14a4 UserData{13A9} 105m13 106r29 107r27
+17U14 Menu 17b14 25l8 25t12 94s7
+28V13 GetDataFromUser{13A9} 28b13 62l8 62t23 105s25
+29a7 Numbers{13A9} 36m37 36r37 37r16 37r34 52m37 52r37 53r16 53r34 56r23
+30b7 Valid{boolean} 32r13 40m16 44m16
+65U14 Simulation 65b14 89l8 89t18 103s13 108s13
+66t7 CarWash{15|17T14} 74m24 74r24 87r7
+67a7 Cars(14|6T13) 74r10 84r10
+73i11 i{integer} 74r15
+78i11 i{integer}
+83i11 i{integer} 84r15
+X 34 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

@@ -1,0 +1,199 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U carwashtasks%b	carwashtasks.adb	ff30cfae OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cartask%s		cartask.adb		cartask.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U carwashtasks%s	carwashtasks.ads	c4934333 EE OO PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-calend.ads		20190518041256 474d9720 ada.calendar%s
+D a-caldel.ads		20190518041256 9f20b83d ada.calendar.delays%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041256 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041256 bb51c45a ada.numerics%s
+D a-nudira.ads		20190518041256 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20190518041256 72908cdb ada.numerics.discrete_random%b
+D a-reatim.ads		20190518041258 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D cartask.ads		20200121173542 22f0bab2 cartask%s
+D carwashtasks.ads	20200121193256 c4934333 carwashtasks%s
+D carwashtasks.adb	20200121193340 c642bead carwashtasks%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-c.ads		20190518041256 5421119b interfaces.c%s
+D i-cstrin.ads		20190518041256 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-atacco.ads		20190518041258 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20190518041258 7e642b20 system.concat_4%s
+D s-conca6.ads		20190518041256 d2c72db2 system.concat_6%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-finroo.ads		20190518041258 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-imguns.ads		20190518041256 9ff43cf7 system.img_uns%s
+D s-multip.ads		20190518041256 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20190518041258 97504df8 system.os_interface%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-rannum.ads		20190518041256 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20190518041258 20ba1217 system.random_numbers%b
+D s-ransee.ads		20190518041258 01a57b33 system.random_seed%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041256 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20190518041258 601f6b72 system.task_info%s
+D s-taspri.ads		20190518041258 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20190518041258 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041258 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041258 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041258 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20190518041258 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20190518041258 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-valuns.ads		20190518041258 35067db9 system.val_uns%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D s-win32.ads		20190518041256 90ecf4e6 system.win32%s
+G a e
+G c Z s b [washing carwashtasks 3 14 none]
+G c Z s b [wash carwashtasks__washing 4 11 none]
+G c Z s b [stop carwashtasks__washing 5 11 none]
+G c Z s b [carwashtask carwashtasks 17 14 none]
+G c Z s b [choosestand carwashtasks__carwashtask 18 13 none]
+G c Z s b [stop carwashtasks__carwashtask 19 13 none]
+G c Z s s [P4sIP carwashtasks 4 5 none]
+G c Z s s [washingVIP carwashtasks 3 4 none]
+G c Z s s [standIP carwashtasks 9 9 none]
+G c Z s s [P10sIP carwashtasks 18 7 none]
+G c Z s s [carwashtaskVIP carwashtasks 17 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r28 2r5 77r33
+X 7 a-numeri.ads
+16K13*Numerics 32e17 17|1r32 77r37
+X 8 a-nudira.ads
+42E9 Result_Subtype 17|77r62
+44k22*Discrete_Random 75e33 17|1w41 77r46
+50R9 Generator<36|63R9> 17|79r23[77]
+52V13 Random{17|76I12} 17|89s28[77]
+55U14 Reset<36|100p14> 17|88s16[77]
+X 9 a-nudira.adb
+53V16 Random[36|83]{17|76I12} 37|392b13[17|77]
+X 13 a-textio.ads
+57K13*Text_IO 727e16 17|1w10 2r9
+508U14*Put_Line 17|41s19 42s19 52s13 53s13 54s13 57s17 61s13 91s16 92s16
+. 97s16 98s16
+X 15 cartask.ads
+4K9*CarTask 11e12 17|1w19 2r18
+X 16 carwashtasks.ads
+1K9*CarWashTasks 22l5 22e17 17|4b14 111l5 111t17
+3T14*Washing 6e7 7r31 11r24 17|70b14 109l8 109t15
+4Y11 Wash 4>16 4=34 4=58 17|87b20 100l17 100t21
+4i16 StandId{integer} 17|92r39 98r39
+4i34 Queue{integer} 17|94m16 94r16 94r25
+4i58 Washed{integer} 17|99m16 99r16
+5Y11 Stop 17|58s31 103b20
+7P9*WashPtr(3T14)
+9R9*Stand 14e17 15r32 17|9r50
+11t10*Wash{3T14} 17|58m26
+12i10*Queue{integer} 17|27r32 28r47 40m33 40r56 42r106
+13i10*WashedCars{integer} 17|57r95
+15P9*StandPtr(9R9) 18r71 17|23r79
+17T14*CarWashTask 17d26 20l8 20e19 17|7b14 67l8 67t19
+17i26 StandsNumber{integer} 17|9r25 25r42 56r39
+18Y13 ChooseStand 18=25 18<52 18=81 17|23b20 48l17 48t28
+18b25 Decision{boolean} 17|36m19 36r19 38m19 38r19
+18p52 ChoosenStand{15P9} 17|43m19 43r19
+18i81 StandId{integer} 17|39m19 39r19
+19Y13 Stop 17|51b20
+X 17 carwashtasks.adb
+9a7 Stands(16|9R9) 27r22 28r37 40m19 40r42 42r92 43m35 43r35 57r85 58r16
+11i7 MaxQueue{integer} 12r31 34r34
+12i7 LowestQueue{integer} 27r40 28m22 34r19 46m16
+14i7 Index{integer} 29m22 39r30 40r26 40r49 42r43 42r99 43r42
+15i7 NotWashedCars{integer} 35m19 35r36 54r70
+23b33 Decision{boolean}
+23p60 ChoosenStand{16|15P9}
+23i89 StandId{integer}
+25i20 i{integer} 27r29 28r44 29r31
+56i17 i{integer} 57r43 57r92 58r23
+72i7 Id{integer} 92r78 96m16 96r22
+73i7 WashedCars{integer} 95m16 95r30 98r87 99r26
+76I12 ModeRange<short_short_integer> 77r79 80r18
+77K15 RandomMode[8|44] 78r11
+79r7 ModeGenerator{8|50R9[77]} 88r22 89r35
+80i7 WashMode{76I12} 89m16 92r100 93r31
+87i25 StandId{integer}
+87i43 Queue{integer}
+87i67 Washed{integer}
+X 18 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 36 s-rannum.ads
+75V13*Random{18|74M9} 37|221i21
+76V13*Random{18|77M9} 37|221i21
+X 42 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

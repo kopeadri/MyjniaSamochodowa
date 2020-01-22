@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarTask.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 7" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarTask.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\Main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 22" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarWashTasks.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 94" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarWashTasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 77" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarWashTasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 1" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarWashTasks.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 112" line=" 92" >
+      <vfs_project>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr</vfs_project>
+      <vfs_file>C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\src\CarWashTasks.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\myjniasamochodowa.gpr
+20200120205012
+[BOUND OBJECT FILES]
+C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\obj\CarTask.o
+C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\obj\CarWashTasks.o
+C:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\obj\Main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\obj\
+-LC:\Users\Ada\Desktop\V semestr\pwir\MyjniaSamochodowa\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnarl.a
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
